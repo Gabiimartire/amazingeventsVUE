@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --color-1: #8e7dbe;
+    --color-2: #f2d0a9;
+    --color-3: #f1e3d3;
+    --color-4: #99c1b9;
+    --color-5: #D90468;
+    --color-6: #e0c2a0;
+
+
+}
+
+body{
+    height: 100vh;
+}
+
+
+.contact-main{
+    display: flex;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.card{
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 27.6rem;
+}
+.card:hover{
+    box-shadow: 5px 6px 6px 2px #cfd3d6;
+    transform: scale(1.040);
+}
+.card-body{
+    width: 100%;
+    min-height: 13rem;
+}
+
+.card-text{
+    margin: auto;
+    font-weight: 500;
+}
+
+.logo{
+    height: 5vh;
+}
+
+.bg-micolor1{
+    background-color: var(--color-2);
+}
+.bg-micolor2{
+    background-color: var(--color-5);
+}
+.bg-micolor3{
+    background-color: var(--color-3);
+}
+.bg-micolor4{
+    background-color: var(--color-4);
+}
+.bg-micolor5{
+    background-color: var(--color-1);
+}
+.bg-micolor6{
+    background-color: var(--color-6);
+}
+h1{
+    color: var(--color-5);
+}
+
+footer {
+    width: 100%;
+    bottom: 0 !important;
+    margin-top: 2rem;
+}
+
+#facebook:hover{
+    color: #fff;
+    background: rgb(19, 19, 82);;
+}
+#instagram:hover{
+    color: #fff;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+}
+#whatsapp:hover{
+    background:greenyellow;
+    color: #fff;
+}
+
+th{
+    background-color: var(--color-4)!important;
+    color: #fff;
+}
+tr{background-color: var(--color-1)!important;
+    border: 1px  solid var(--color-3)!important;}
+
+button{
+    padding: 6px 0px !important;
+    border-radius: 15px !important;
+
+}
+
+a{
+    transition: all 0.2s ease;
+    cursor: pointer;
+    margin-right: 3rem;
+    align-items: center;
+}
+a:hover{
+    transform: scale(1.040);
+}
+
+.slide img{
+    height: 30vh;
+}
+
+.card-details{
+    width: 30rem;
+    height: 15rem;
+    background: transparent;
+
+}
+
+.image-details{
+    width: 100%;
+    height: 100%;
+}
